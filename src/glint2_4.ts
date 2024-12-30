@@ -50,9 +50,6 @@ class SolusiNomer4 {
     }
 }
 
-// Contoh penggunaan
 const data2 = ['3', '2 5 8'];
-const sol3 = new SolusiNomer4(data2); // Program akan langsung keluar jika indeks pertama adalah '0'
-console.log(sol3.olahDataInputMenjadiArrayString());
-console.log(sol3.buatPermutasiDariDataYangDiolah());
+const sol3 = new SolusiNomer4(data2);
 console.log(sol3.cariAngkaTerbesar());
